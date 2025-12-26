@@ -18,48 +18,13 @@ const menuForDevice = {
     "name": "All Day Schedule",
     "description": "Available throughout operating hours",
     "timeChunks": [
-      {
-        "id": "352AEEFC-A388-4631-ACBD-30E5859EAB23",
-        "dayOfWeek": 0,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      },
-      {
-        "id": "E61CECA8-2A84-490B-98CC-6B97E0847281",
-        "dayOfWeek": 1,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      },
-      {
-        "id": "33F05494-1D2A-41A5-8764-45363E3529C6",
-        "dayOfWeek": 2,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      },
-      {
-        "id": "1AB01F3D-30EA-43C6-9988-D21FCCFBA6D3",
-        "dayOfWeek": 3,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      },
-      {
-        "id": "05FDB99F-B709-4B39-8C7C-6C164DEF12BA",
-        "dayOfWeek": 4,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      },
-      {
-        "id": "E67B8E6B-1E92-427D-8523-9EC13420E393",
-        "dayOfWeek": 5,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      },
-      {
-        "id": "671C097D-1356-48D4-B778-1A7DC4CE01EB",
-        "dayOfWeek": 6,
-        "startTime": "06:00:00",
-        "endTime": "22:00:00"
-      }
+      { "id": "352AEEFC-A388-4631-ACBD-30E5859EAB23", "dayOfWeek": 0, "startTime": "06:00:00", "endTime": "22:00:00" },
+      { "id": "E61CECA8-2A84-490B-98CC-6B97E0847281", "dayOfWeek": 1, "startTime": "06:00:00", "endTime": "22:00:00" },
+      { "id": "33F05494-1D2A-41A5-8764-45363E3529C6", "dayOfWeek": 2, "startTime": "06:00:00", "endTime": "22:00:00" },
+      { "id": "1AB01F3D-30EA-43C6-9988-D21FCCFBA6D3", "dayOfWeek": 3, "startTime": "06:00:00", "endTime": "22:00:00" },
+      { "id": "05FDB99F-B709-4B39-8C7C-6C164DEF12BA", "dayOfWeek": 4, "startTime": "06:00:00", "endTime": "22:00:00" },
+      { "id": "E67B8E6B-1E92-427D-8523-9EC13420E393", "dayOfWeek": 5, "startTime": "06:00:00", "endTime": "22:00:00" },
+      { "id": "671C097D-1356-48D4-B778-1A7DC4CE01EB", "dayOfWeek": 6, "startTime": "06:00:00", "endTime": "22:00:00" }
     ],
     "specialChunks": [],
     "createdAt": "2025-12-18T14:07:42.880Z",
@@ -86,6 +51,32 @@ const menuForDevice = {
       "version": 1,
       "tenantId": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
       "color": "#5D4037",
+      "media": {
+        "images": [
+          {
+            "id": "media-cat-coffee-1",
+            "createdAt": "2025-12-18T14:07:42.900Z",
+            "updatedAt": "2025-12-18T14:07:42.900Z",
+            "deletedAt": null,
+            "version": 1,
+            "name": "coffee-category-banner.jpg",
+            "alternativeText": "Barista preparing a latte in coffee shop",
+            "caption": "Specialty coffee station",
+            "width": 1200,
+            "height": 800,
+            "formats": "{\"thumbnail\":{\"width\":234,\"height\":156,\"url\":\"http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/coffee-category-banner_thumbnail.jpg\",\"size\":10.2},\"small\":{\"width\":500,\"height\":333,\"url\":\"http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/coffee-category-banner_small.jpg\",\"size\":36.5}}",
+            "hash": "coffee-category-banner_def123",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 210.1,
+            "url": "http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/coffee-category-banner.jpg",
+            "provider": "local",
+            "providerMetadata": "{\"provider\":\"local\",\"path\":\"storage/media/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/coffee-category-banner.jpg\",\"size\":215100,\"mimeType\":\"image/jpeg\"}",
+            "tenantId": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890"
+          }
+        ],
+        "banners": []
+      },
       "products": [
         {
           "productId": "B40D1111-1111-1111-1111-111111111111",
@@ -963,6 +954,32 @@ const menuForDevice = {
       "version": 1,
       "tenantId": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
       "color": "#000000",
+      "media": {
+        "images": [
+          {
+            "id": "media-cat-pastry-1",
+            "createdAt": "2025-12-18T14:07:42.910Z",
+            "updatedAt": "2025-12-18T14:07:42.910Z",
+            "deletedAt": null,
+            "version": 1,
+            "name": "pastry-display-case.jpg",
+            "alternativeText": "Glass display of fresh pastries and brownies",
+            "caption": "Daily baked pastries",
+            "width": 1200,
+            "height": 800,
+            "formats": "{\"thumbnail\":{\"width\":234,\"height\":156,\"url\":\"http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/pastry-display-case_thumbnail.jpg\",\"size\":11.3},\"small\":{\"width\":500,\"height\":333,\"url\":\"http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/pastry-display-case_small.jpg\",\"size\":39.8}}",
+            "hash": "pastry-display-case_mno456",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 225.7,
+            "url": "http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/pastry-display-case.jpg",
+            "provider": "local",
+            "providerMetadata": "{\"provider\":\"local\",\"path\":\"storage/media/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/pastry-display-case.jpg\",\"size\":231100,\"mimeType\":\"image/jpeg\"}",
+            "tenantId": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890"
+          }
+        ],
+        "banners": []
+      },
       "products": [
         {
           "productId": "B40D5555-1111-1111-1111-111111111111",
@@ -1320,6 +1337,32 @@ const menuForDevice = {
       "version": 1,
       "tenantId": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
       "color": "#1565C0",
+      "media": {
+        "images": [
+          {
+            "id": "media-cat-beverage-1",
+            "createdAt": "2025-12-18T14:07:42.920Z",
+            "updatedAt": "2025-12-18T14:07:42.920Z",
+            "deletedAt": null,
+            "version": 1,
+            "name": "beverage-wall.jpg",
+            "alternativeText": "Wall of cold drinks and iced beverages",
+            "caption": "Cold beverages station",
+            "width": 1200,
+            "height": 800,
+            "formats": "{\"thumbnail\":{\"width\":234,\"height\":156,\"url\":\"http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/beverage-wall_thumbnail.jpg\",\"size\":10.5},\"small\":{\"width\":500,\"height\":333,\"url\":\"http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/beverage-wall_small.jpg\",\"size\":37.2}}",
+            "hash": "beverage-wall_qrs789",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 220.8,
+            "url": "http://localhost:3001/storage/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/beverage-wall.jpg",
+            "provider": "local",
+            "providerMetadata": "{\"provider\":\"local\",\"path\":\"storage/media/A1B2C3D4-E5F6-7890-ABCD-EF1234567890/media/beverage-wall.jpg\",\"size\":226100,\"mimeType\":\"image/jpeg\"}",
+            "tenantId": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890"
+          }
+        ],
+        "banners": []
+      },
       "products": [
         {
           "productId": "B40D6666-2222-2222-2222-222222222222",
