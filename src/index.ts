@@ -1,11 +1,20 @@
 import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import menuForDevice from './mocks/menuForDevice.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const app = express()
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS')
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+  if (req.method === 'OPTIONS') return res.sendStatus(204)
+  next()
+})
 
 // Home route - HTML
 app.get('/', (req, res) => {
@@ -44,9 +53,24 @@ app.get('/api-data', (req, res) => {
   })
 })
 
+app.get('/menus/:menuId/for-device', (req, res) => {
+  const { storeId, priceTypeId, priceVariantId } = req.query
+  void storeId
+  void priceTypeId
+  void priceVariantId
+
+  res.json(menuForDevice)
+})
+
 // Health check
 app.get('/healthz', (req, res) => {
   res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() })
+})
+
+const port = process.env.PORT || 3000
+
+app.listen(port, () => {
+  console.log(`Mock server listening on port ${port}`)
 })
 
 export default app
